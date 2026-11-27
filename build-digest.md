@@ -1,18 +1,18 @@
 # Build digest
 
-commit: 96e53532f864
+commit: 5daf68ae8ba9
 
-- windows-x64-debug: cancelled
-- windows-x64-release: failure
-- windows-x86-debug: cancelled
-- windows-x86-release: cancelled
+- windows-x64-debug: success
+- windows-x64-release: success
+- windows-x86-debug: success
+- windows-x86-release: success
 
 ## windows-x64-debug
 
-status: cancelled
+status: success
 
 errors: 0
-warnings: 0 in 0 kinds
+warnings: 434 in 15 kinds
 
 ### errors
 
@@ -21,29 +21,553 @@ warnings: 0 in 0 kinds
 
 
 ### warning kinds
+
+- [115x] C4309
+  - D:\a\NeoBuild\NeoBuild\SRC\GLOBAL.CPP(163): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(160): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3066): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3067): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3099): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\PREMAP.CPP(1249): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(226): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(233): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\SOUNDS.CPP(670): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1267): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1268): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1269): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1277): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1278): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1280): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1285): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1286): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1288): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1295): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1296): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1297): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1302): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1303): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1304): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1308): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1309): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1311): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1316): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1317): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1318): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1322): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1323): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1325): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1338): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1345): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1353): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1361): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1369): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1377): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1399): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1415): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1431): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1560): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1561): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1562): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1563): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1567): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1569): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1707): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1709): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1715): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1716): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1723): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1724): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1725): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1726): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1733): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1735): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1736): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1740): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1741): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1746): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1750): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1758): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1759): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1763): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2440): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2605): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2623): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2624): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2629): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2630): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2633): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2634): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2635): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2636): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2866): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2875): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3011): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3772): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(4132): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6082): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6084): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8863): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8873): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8880): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8888): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8899): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9089): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9093): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9101): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9102): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9109): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9115): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9127): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9142): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9145): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9177): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9197): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9227): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9231): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9242): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9245): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4051): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4061): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6786): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6889): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6943): warning C4309: '=': truncation of constant value
+- [100x] C4005
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(59): warning C4005: 'MAXINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(60): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(61): warning C4005: 'MAXUINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(64): warning C4005: 'MAXINT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(65): warning C4005: 'MININT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(66): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(443): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(444): warning C4005: 'MAXINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(445): warning C4005: 'MININT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(447): warning C4005: 'MAXUINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(448): warning C4005: 'MAXINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(449): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\KEYBOARD.CPP(26): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4): warning C4005: 'NOMINMAX': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(5): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(11): warning C4005: 'MAXTILES': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(14): warning C4005: 'MAXXDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(15): warning C4005: 'MAXYDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(18): warning C4005: 'MAXSPRITESONSCREEN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\XAUDIO2.CPP(4): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(21): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(22): warning C4005: 'NOMINMAX': macro redefinition
+- [70x] C4091
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(265): warning C4091: 'static ': ignored on left of 'animwalltype' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(280): warning C4091: 'typedef ': ignored on left of 'user_defs' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(309): warning C4091: 'typedef ': ignored on left of 'player_orig' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(324): warning C4091: 'typedef ': ignored on left of 'player_struct' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(422): warning C4091: 'typedef ': ignored on left of 'weaponhit' when no variable is declared
+- [38x] C4312
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6477): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6483): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6485): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6487): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1680): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1812): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1951): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2102): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2103): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2104): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2131): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2484): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3057): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3061): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3063): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(125): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(179): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(281): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(331): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(552): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(613): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(620): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(5460): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(5508): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(1756): warning C4312: 'reinterpret_cast': conversion from 'long' to 'const unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6340): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6341): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6363): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(4378): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HMENU' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(5627): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HMENU' of greater size
+- [32x] C4311
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6471): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6473): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(475): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(620): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(766): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(820): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(997): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1078): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1516): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(322): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(330): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(339): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(590): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(593): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(605): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(612): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(619): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(629): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(631): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(636): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(641): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(654): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+- [32x] C4302
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6471): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6473): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(475): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(620): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(766): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(820): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(997): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1078): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1516): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(322): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(330): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(339): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(590): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(593): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(605): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(612): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(619): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(629): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(631): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(636): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(641): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(654): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+- [14x] C4068
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(97): warning C4068: unknown pragma 'aux'
+- [12x] C4172
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(56) : warning C4172: returning address of local variable or temporary : b, a
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(54) : warning C4172: returning address of local variable or temporary : b, a
+- [9x] C4267
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(1599): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2358): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2748): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1452): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2160): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6292): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6465): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7322): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7515): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+- [4x] C4554
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1225): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1226): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1230): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1231): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+- [3x] C4390
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1277): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1553): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1648): warning C4390: ';': empty controlled statement found; is this the intent?
+- [2x] C4838
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+- [1x] C4474
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(462): warning C4474: 'printf' : too many arguments passed for format string
+- [1x] C4065
+  - D:\a\NeoBuild\NeoBuild\SRC\SECTOR.CPP(2985): warning C4065: switch statement contains 'default' but no 'case' labels
+- [1x] C4778
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9337): warning C4778: 'sprintf' : unterminated format string '%'
 
 ## windows-x64-release
 
-status: failure
+status: success
 
-errors: 1
-warnings: 0 in 0 kinds
+errors: 0
+warnings: 422 in 14 kinds
 
 ### errors
 
-scons: *** No SConstruct file found.
 
 ### failure context
 
 
 ### warning kinds
+
+- [115x] C4309
+  - D:\a\NeoBuild\NeoBuild\SRC\GLOBAL.CPP(163): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(160): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3066): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3067): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3099): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\PREMAP.CPP(1249): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(226): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(233): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1267): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1268): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1269): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1277): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1278): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1280): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1285): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1286): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1288): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1295): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1296): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1297): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1302): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1303): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1304): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1308): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1309): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1311): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1316): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1317): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1318): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1322): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1323): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1325): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1338): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1345): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1353): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1361): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1369): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1377): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1399): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1415): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1431): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1560): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1561): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1562): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1563): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1567): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1569): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1707): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1709): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1715): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1716): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1723): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1724): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1725): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1726): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1733): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1735): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1736): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1740): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1741): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1746): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1750): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1758): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1759): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1763): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2440): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2605): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2623): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2624): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2629): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2630): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2633): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2634): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2635): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2636): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2866): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2875): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3011): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3772): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(4132): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6082): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6084): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8863): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8873): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8880): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8888): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8899): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9089): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9093): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9101): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9102): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9109): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9115): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9127): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9142): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9145): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9177): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9197): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9227): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9231): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9242): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9245): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\SOUNDS.CPP(670): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4051): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4061): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6786): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6889): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6943): warning C4309: '=': truncation of constant value
+- [100x] C4005
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(59): warning C4005: 'MAXINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(60): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(61): warning C4005: 'MAXUINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(64): warning C4005: 'MAXINT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(65): warning C4005: 'MININT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(66): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(443): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(444): warning C4005: 'MAXINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(445): warning C4005: 'MININT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(447): warning C4005: 'MAXUINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(448): warning C4005: 'MAXINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(449): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\KEYBOARD.CPP(26): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4): warning C4005: 'NOMINMAX': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(5): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(11): warning C4005: 'MAXTILES': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(14): warning C4005: 'MAXXDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(15): warning C4005: 'MAXYDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(18): warning C4005: 'MAXSPRITESONSCREEN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\XAUDIO2.CPP(4): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(21): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(22): warning C4005: 'NOMINMAX': macro redefinition
+- [70x] C4091
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(265): warning C4091: 'static ': ignored on left of 'animwalltype' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(280): warning C4091: 'typedef ': ignored on left of 'user_defs' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(309): warning C4091: 'typedef ': ignored on left of 'player_orig' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(324): warning C4091: 'typedef ': ignored on left of 'player_struct' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(422): warning C4091: 'typedef ': ignored on left of 'weaponhit' when no variable is declared
+- [38x] C4312
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1680): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1812): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1951): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2102): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2103): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2104): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2131): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(2484): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3057): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3061): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(3063): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6477): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6483): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6485): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6487): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(125): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(179): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(281): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(331): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(552): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(613): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(620): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(5460): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(5508): warning C4312: 'type cast': conversion from 'long' to 'long *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(1756): warning C4312: 'reinterpret_cast': conversion from 'long' to 'const unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6340): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6341): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6363): warning C4312: 'reinterpret_cast': conversion from 'long' to 'unsigned char *' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(4378): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HMENU' of greater size
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(5627): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HMENU' of greater size
+- [32x] C4311
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(475): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(620): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(766): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(820): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(997): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1078): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1516): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6471): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6473): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(322): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(330): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(339): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(590): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(593): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(605): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(612): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(619): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(629): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(631): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(636): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(641): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(654): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4311: 'type cast': pointer truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4311: 'type cast': pointer truncation from 'sectortype *' to 'long'
+- [32x] C4302
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(475): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(620): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(766): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(820): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(997): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1078): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(1516): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6471): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(6473): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(322): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(330): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(339): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(352): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(590): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(593): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(605): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(612): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(619): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(629): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(631): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(636): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(641): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(654): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(669): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4302: 'type cast': truncation from 'long *' to 'long'
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(671): warning C4302: 'type cast': truncation from 'sectortype *' to 'long'
+- [14x] C4068
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(97): warning C4068: unknown pragma 'aux'
+- [9x] C4267
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(1599): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2358): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2748): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1452): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2160): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6292): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6465): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7322): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7515): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+- [4x] C4554
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1225): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1226): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1230): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1231): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+- [3x] C4390
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1277): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1553): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1648): warning C4390: ';': empty controlled statement found; is this the intent?
+- [2x] C4838
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+- [1x] C4474
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(462): warning C4474: 'printf' : too many arguments passed for format string
+- [1x] C4778
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9337): warning C4778: 'sprintf' : unterminated format string '%'
+- [1x] C4065
+  - D:\a\NeoBuild\NeoBuild\SRC\SECTOR.CPP(2985): warning C4065: switch statement contains 'default' but no 'case' labels
 
 ## windows-x86-debug
 
-status: cancelled
+status: success
 
 errors: 0
-warnings: 0 in 0 kinds
+warnings: 330 in 12 kinds
 
 ### errors
 
@@ -52,13 +576,183 @@ warnings: 0 in 0 kinds
 
 
 ### warning kinds
+
+- [115x] C4309
+  - D:\a\NeoBuild\NeoBuild\SRC\GLOBAL.CPP(163): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(160): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3066): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3067): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3099): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\PREMAP.CPP(1249): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(226): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(233): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\SOUNDS.CPP(670): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1267): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1268): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1269): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1277): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1278): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1280): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1285): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1286): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1288): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1295): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1296): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1297): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1302): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1303): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1304): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1308): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1309): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1311): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1316): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1317): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1318): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1322): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1323): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1325): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1338): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1345): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1353): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1361): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1369): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1377): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1399): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1415): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1431): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1560): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1561): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1562): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1563): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1567): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1569): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1707): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1709): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1715): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1716): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1723): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1724): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1725): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1726): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1733): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1735): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1736): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1740): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1741): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1746): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1750): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1758): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1759): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1763): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2440): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2605): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2623): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2624): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2629): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2630): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2633): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2634): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2635): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2636): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2866): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2875): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3011): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3772): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(4132): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6082): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6084): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8863): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8873): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8880): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8888): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8899): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9089): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9093): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9101): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9102): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9109): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9115): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9127): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9142): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9145): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9177): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9197): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9227): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9231): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9242): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9245): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4051): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4061): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6786): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6889): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6943): warning C4309: '=': truncation of constant value
+- [100x] C4005
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(59): warning C4005: 'MAXINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(60): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(61): warning C4005: 'MAXUINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(64): warning C4005: 'MAXINT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(65): warning C4005: 'MININT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(66): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(443): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(444): warning C4005: 'MAXINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(445): warning C4005: 'MININT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(447): warning C4005: 'MAXUINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(448): warning C4005: 'MAXINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\basetsd.h(449): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\KEYBOARD.CPP(26): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4): warning C4005: 'NOMINMAX': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(5): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(11): warning C4005: 'MAXTILES': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(14): warning C4005: 'MAXXDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(15): warning C4005: 'MAXYDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(18): warning C4005: 'MAXSPRITESONSCREEN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\XAUDIO2.CPP(4): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(21): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(22): warning C4005: 'NOMINMAX': macro redefinition
+- [70x] C4091
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(265): warning C4091: 'static ': ignored on left of 'animwalltype' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(280): warning C4091: 'typedef ': ignored on left of 'user_defs' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(309): warning C4091: 'typedef ': ignored on left of 'player_orig' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(324): warning C4091: 'typedef ': ignored on left of 'player_struct' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(422): warning C4091: 'typedef ': ignored on left of 'weaponhit' when no variable is declared
+- [14x] C4068
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(97): warning C4068: unknown pragma 'aux'
+- [12x] C4172
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(56) : warning C4172: returning address of local variable or temporary : b, a
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(54) : warning C4172: returning address of local variable or temporary : b, a
+- [7x] C4267
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(1599): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2748): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1452): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2160): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6292): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6465): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7515): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+- [4x] C4554
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1225): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1226): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1230): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1231): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+- [3x] C4390
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1277): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1553): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1648): warning C4390: ';': empty controlled statement found; is this the intent?
+- [2x] C4838
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+- [1x] C4474
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(462): warning C4474: 'printf' : too many arguments passed for format string
+- [1x] C4065
+  - D:\a\NeoBuild\NeoBuild\SRC\SECTOR.CPP(2985): warning C4065: switch statement contains 'default' but no 'case' labels
+- [1x] C4778
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9337): warning C4778: 'sprintf' : unterminated format string '%'
 
 ## windows-x86-release
 
-status: cancelled
+status: success
 
 errors: 0
-warnings: 0 in 0 kinds
+warnings: 318 in 11 kinds
 
 ### errors
 
@@ -67,4 +761,171 @@ warnings: 0 in 0 kinds
 
 
 ### warning kinds
+
+- [115x] C4309
+  - D:\a\NeoBuild\NeoBuild\SRC\GLOBAL.CPP(163): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(160): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3066): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3067): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(3099): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1267): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1268): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1269): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1277): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1278): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1280): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1285): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1286): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1288): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1295): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1296): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1297): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1302): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1303): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1304): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1308): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1309): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1311): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1316): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1317): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1318): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1322): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1323): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1325): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1338): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1345): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1353): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1361): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1369): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1377): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1399): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1415): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1431): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1560): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1561): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1562): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1563): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1567): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1569): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1707): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1709): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1715): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1716): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1723): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1724): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1725): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1726): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1733): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1735): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1736): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1740): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1741): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1746): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1750): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1758): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1759): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1763): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2440): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2605): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2623): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2624): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2629): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2630): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2633): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2634): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2635): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2636): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2866): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2875): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3011): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(3772): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(4132): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6082): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6084): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8863): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8873): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8880): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8888): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(8899): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9089): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9093): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9101): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9102): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9109): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9115): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9127): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9142): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9145): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9177): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9197): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9227): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9231): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9242): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9245): warning C4309: 'argument': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\PREMAP.CPP(1249): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(226): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\RTS.CPP(233): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\SOUNDS.CPP(670): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4309: 'initializing': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4051): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4061): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6786): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6889): warning C4309: '=': truncation of constant value
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(6943): warning C4309: '=': truncation of constant value
+- [100x] C4005
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(59): warning C4005: 'MAXINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(60): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(61): warning C4005: 'MAXUINT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(64): warning C4005: 'MAXINT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(65): warning C4005: 'MININT16': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\types.h(66): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(443): warning C4005: 'MAXUINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(444): warning C4005: 'MAXINT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(445): warning C4005: 'MININT16': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(447): warning C4005: 'MAXUINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(448): warning C4005: 'MAXINT32': macro redefinition
+  - C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\basetsd.h(449): warning C4005: 'MININT32': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(4): warning C4005: 'NOMINMAX': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(5): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(11): warning C4005: 'MAXTILES': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(14): warning C4005: 'MAXXDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(15): warning C4005: 'MAXYDIM': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.H(18): warning C4005: 'MAXSPRITESONSCREEN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\KEYBOARD.CPP(26): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\XAUDIO2.CPP(4): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(21): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  - D:\a\NeoBuild\NeoBuild\SRC\EDITOR.CPP(22): warning C4005: 'NOMINMAX': macro redefinition
+- [70x] C4091
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(265): warning C4091: 'static ': ignored on left of 'animwalltype' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(280): warning C4091: 'typedef ': ignored on left of 'user_defs' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(309): warning C4091: 'typedef ': ignored on left of 'player_orig' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(324): warning C4091: 'typedef ': ignored on left of 'player_struct' when no variable is declared
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(422): warning C4091: 'typedef ': ignored on left of 'weaponhit' when no variable is declared
+- [14x] C4068
+  - D:\a\NeoBuild\NeoBuild\SRC\duke3d.h(97): warning C4068: unknown pragma 'aux'
+- [7x] C4267
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(1599): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\MENUES.CPP(2748): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(1452): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(2160): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6292): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(6465): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(7515): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+- [4x] C4554
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1225): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1226): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1230): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  - D:\a\NeoBuild\NeoBuild\SRC\PLAYER.CPP(1231): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+- [3x] C4390
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1277): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1553): warning C4390: ';': empty controlled statement found; is this the intent?
+  - D:\a\NeoBuild\NeoBuild\SRC\ACTORS.CPP(1648): warning C4390: ';': empty controlled statement found; is this the intent?
+- [2x] C4838
+  - D:\a\NeoBuild\NeoBuild\SRC\BUILD.CPP(310): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+- [1x] C4474
+  - D:\a\NeoBuild\NeoBuild\SRC\GAMEDEF.CPP(462): warning C4474: 'printf' : too many arguments passed for format string
+- [1x] C4778
+  - D:\a\NeoBuild\NeoBuild\SRC\GAME.CPP(9337): warning C4778: 'sprintf' : unterminated format string '%'
+- [1x] C4065
+  - D:\a\NeoBuild\NeoBuild\SRC\SECTOR.CPP(2985): warning C4065: switch statement contains 'default' but no 'case' labels
 
