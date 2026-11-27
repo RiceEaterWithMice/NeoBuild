@@ -6790,8 +6790,7 @@ extern "C" void setgotpic(long tilenume)
 #define BUILDCACHE_MAXOBJECTS 9216
 struct cactype { long* hand; long leng; char* lock; };
 long cacnum = 0;
-static cactype buildgl_public_cac_storage[BUILDCACHE_MAXOBJECTS] = {};
-cactype* cac = buildgl_public_cac_storage;
+cactype cac[BUILDCACHE_MAXOBJECTS] = {};
 
 namespace buildcache
 {
@@ -7101,8 +7100,7 @@ void faketimerhandler()
 long crctable[256] = {};
 short myconnectindex = 0, numplayers = 1;
 short connecthead = 0;
-static short buildgl_connectpoint2_storage[BUILDNET_MAXPLAYERS] = { -1 };
-short* connectpoint2 = buildgl_connectpoint2_storage;
+short connectpoint2[BUILDNET_MAXPLAYERS] = { -1 };
 char syncstate = 0;
 
 namespace buildnet

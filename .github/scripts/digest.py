@@ -22,9 +22,10 @@ LEG = os.environ.get("LEG", "unknown")
 STATUS = os.environ.get("STATUS", "unknown")
 
 ERROR_RE = re.compile(
-    "error:|fatal error:|error C[0-9]+|Error C[0-9]+|scons: [*][*][*]|"
+    "error:|fatal error:|error C[0-9]+|Error C[0-9]+|error LNK[0-9]+|"
+    "fatal error LNK[0-9]+|FAILED:|ninja: build stopped|"
     "undefined reference|undefined symbol|unresolved external|no such file|"
-    "cannot open|LLVM ERROR|Stack dump:|>>> referenced|UNCRUSTIFY_FAILED"
+    "cannot open|LLVM ERROR|Stack dump:|>>> referenced"
 )
 WARNING_RE = re.compile("warning:|warning C[0-9]+")
 FLAG_RE = re.compile(r"\[-W([-\w]+)\]")
@@ -62,7 +63,7 @@ def main():
                 with open("build.log", errors="replace") as fh:
                     lines = fh.read().splitlines()
             else:
-                lines = ["no build.log: the job failed before or during early setup, before scons produced output"]
+                lines = ["no build.log: the job failed before or during early setup, before cmake produced output"]
             errors = [l for l in lines if ERROR_RE.search(l)]
             warnings = [l for l in lines if WARNING_RE.search(l)]
 
@@ -86,14 +87,14 @@ def main():
             for l in list(seen_errors.keys())[:MAX_ERROR_LINES]:
                 f.write(l + "\n")
 
-            # raw lines around each failing scons target: failures that
+            # raw lines around each failing ninja command: failures that
             # print no matching error line (crashes, out of memory)
             # stay visible in the digest this way
             f.write("\n### failure context\n\n")
-            scons_fail = re.compile(r"scons: \*\*\* \[(.+?)\]")
+            failed_cmd = re.compile(r"FAILED: (.+)")
             ctx = OrderedDict()
             for i, l in enumerate(lines):
-                m = scons_fail.search(l)
+                m = failed_cmd.search(l)
                 if m:
                     target = m.group(1).strip()
                     if target and target not in ctx:

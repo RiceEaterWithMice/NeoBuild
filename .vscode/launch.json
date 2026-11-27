@@ -2,120 +2,36 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Doom3BFG (x64 debug)",
+            "name": "Duke3DX (x64 debug)",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
+            "program": "${workspaceFolder}/duke3dx.exe",
+            "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build (x64 debug)"
         },
         {
-            "name": "Doom3BFG (x64 release)",
+            "name": "Duke3DX (x64 release)",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
+            "program": "${workspaceFolder}/duke3dx.exe",
+            "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build (x64 release)"
         },
         {
-            "name": "Doom3BFG (x64 retail)",
+            "name": "Editor (x64 debug)",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x64 retail)"
+            "program": "${workspaceFolder}/editor.exe",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build (x64 debug)"
         },
         {
-            "name": "Doom3BFG (x86 debug)",
+            "name": "Editor (x64 release)",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x86 debug)"
-        },
-        {
-            "name": "Doom3BFG (x86 release)",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x86 release)"
-        },
-        {
-            "name": "Doom3BFG (x86 retail)",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x86 retail)"
-        },
-        {
-            "name": "Doom3BFG (x64 debug, clang)",
-            "type": "lldb",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x64 debug, clang)",
-            "initCommands": [
-                "settings set target.max-children-count 256",
-                "settings set target.max-string-summary-length 2048"
-            ]
-        },
-        {
-            "name": "Doom3BFG (x64 debug, gcc)",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/Doom3BFG.exe",
-            "args": [
-                "+set",
-                "r_fullscreen",
-                "0"
-            ],
-            "cwd": "${workspaceFolder}/bin",
-            "preLaunchTask": "Build (x64 debug, gcc)",
-            "MIMode": "gdb",
-            "miDebuggerPath": "gdb",
-            "setupCommands": [
-                {
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ]
+            "program": "${workspaceFolder}/editor.exe",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build (x64 release)"
         }
     ]
 }
