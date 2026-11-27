@@ -4,11 +4,11 @@
             "path": "${env:windir}\\System32\\cmd.exe",
             "icon": "terminal-cmd"
         },
-        "VS 2026 Developer Command Prompt (x64)": {
+        "Developer Command Prompt": {
             "path": "${env:windir}\\System32\\cmd.exe",
             "args": [
                 "/k",
-                "call .\\.vscode\\scripts\\VS2026DevCmd.cmd"
+                "call .vscode\\scripts\\devcmd.cmd x64"
             ],
             "icon": "terminal-cmd"
         }
@@ -19,16 +19,14 @@
     "terminal.integrated.enablePersistentSessions": true,
     "search.exclude": {
         "**/build": true,
-        "**/bin": true,
-        "**/.scons_cache": true
+        "**/out": true
     },
     "files.watcherExclude": {
         "**/build/**": true,
-        "**/bin/**": true,
-        "**/.scons_cache/**": true
+        "**/out/**": true
     },
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.cppStandard": "c++17",
+    "cmake.configureOnOpen": false,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngine": "default",
     "editor.formatOnSave": false

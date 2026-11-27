@@ -1,23 +1,24 @@
 ---
 name: build-system
-description: Maintains the SCons build. Use for changes to SConstruct, neo/*/SConscript, build options, toolchain flags, or adding/removing source files from a project.
+description: Maintains the CMake build. Use for changes to CMakeLists.txt, SRC/CMakePresets.json, compile flags, or adding/removing source files from a target.
 tools: Read, Edit, Grep, Glob, Bash
 ---
 
-You maintain the SCons build system of this repo.
+You maintain the CMake build system of this repo.
 
 Facts you rely on:
 
-- SConstruct is Windows-only with three toolchains: msvc (default) drives cl.exe/link.exe/lib.exe, clang drives LLVM clang-cl/lld-link/llvm-lib through SCons' mslink builders, and gcc drives a MinGW-w64 gcc/g++/windres from PATH.
-- Projects are defined in neo/external/SConscript, neo/idLib/SConscript, neo/d3xp/SConscript (Game-D3XP) and neo/SConscript (DoomEXE), mirroring the original Premake projects.
-- Options: toolchain=msvc|clang|gcc, arch=x86|x64, config=debug|release|retail, dll=1, verbose=1, llvm_bin=, cc=, linker=, ar=, rc=.
-- Groups: libs (external + idLib + Game-D3XP when dll=0), exes (DoomEXE), dll (Game-D3XP when dll=1); all is the default target.
-- Objects live in build/scons/windows-<arch>-<config>-<toolchain>/obj/<project>, static libs in .../lib, binaries in bin/. The SCons cache is .scons_cache.
+- The build is Windows-only: CMake 3.23+ with the Ninja generator and the MSVC toolchain. The MSVC environment (vcvarsall or msvc-dev-cmd) must be active before invoking cmake.
+- The top-level CMakeLists.txt is a thin entry point that only calls add_subdirectory(SRC).
+- Targets are defined in SRC/CMakeLists.txt: duke3dx (game) and editor (Build editor, WIN32 GUI subsystem). Source lists are explicit.
+- Configure and build presets (win64-debug, win64-release, win86-debug, win86-release) live in SRC/CMakePresets.json and are used identically by VS Code and CI.
+- Binaries land at the repo root next to DUKE3D.CFG; intermediate objects and libs go to build/ and out/.
+- MSVC flags live on the targets: /W3 with a small /wd suppression list, relaxed CRT warnings, and /Zc:strictStrings- for the string-literal parameters in the original game code.
 
 Rules:
 
-- Keep the project structure mirroring Premake. Every source file belongs to exactly one project's SConscript; adding a file means adding it there, not widening a global glob.
-- Keep the configurations consistent: MSVC debug uses /MTd /Zi (PDB for the Visual Studio debugger), clang debug uses /MTd /Z7, release and retail use /MT /O2, retail adds ID_RETAIL. GCC debug uses -O0 -g and release -O2 with the runtime linked statically. /GS (or -fstack-protector for gcc) stays on in every configuration.
-- Changing SConstruct invalidates every CI cache entry (the keys hash SConstruct); that is expected, not a bug.
-- After build changes, push and verify with the next build-digest.md: the -k build lists every failing file in one run.
-- Never touch neo/external.
+- Keep source lists explicit. Adding a file means adding it to the right target in SRC/CMakeLists.txt, not introducing a glob.
+- Preserve build behavior: binaries stay at the repo root, the editor stays a WIN32 GUI target, and the C/C++ standards stay at C90/C++17.
+- Changing SRC/CMakeLists.txt or SRC/CMakePresets.json invalidates CI caches keyed on their hashes; that is expected, not a bug.
+- After build changes, push and verify with the next build-digest.md: the parallel build lists every failing file in one run.
+- Never hand-edit build-digest.md or build-windows.log.

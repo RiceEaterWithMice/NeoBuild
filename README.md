@@ -48,15 +48,21 @@ The goal is **accuracy first**, with modernization only where required for compa
 ## Requirements
 
 - Windows (Win32)
-- CMake (recommended)
-- Visual Studio (or compatible C++ compiler)
+- CMake 3.23 or newer
+- Visual Studio with the Desktop C++ workload (MSVC) and Ninja
 
 ---
 
 ## Building
 
+Configure and build presets for x86/x64 and debug/release live in
+SRC/CMakePresets.json. From the repo root, with the Visual Studio
+developer environment active:
+
 ```bash
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
+cmake --preset win64-release
+cmake --build --preset win64-release
+```
+
+The game (`duke3dx.exe`) and the Build editor (`editor.exe`) end up at
+the repo root, next to `DUKE3D.CFG`.
