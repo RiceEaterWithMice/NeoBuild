@@ -56,7 +56,7 @@ The goal is **accuracy first**, with modernization only where required for compa
 ## Building
 
 Configure and build presets for x86/x64 and debug/release live in
-SRC/CMakePresets.json. From the repo root, with the Visual Studio
+CMakePresets.json (repo root). From the repo root, with the Visual Studio
 developer environment active:
 
 ```bash

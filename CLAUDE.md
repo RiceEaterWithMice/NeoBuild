@@ -4,7 +4,7 @@ Duke3DX is a cleanroom reimplementation of the Build engine running the
 original Duke Nukem 3D 1.5 game code with minimal modifications, ported
 to modern C++ and Win32. Windows only. The build is CMake with the Ninja
 generator and the MSVC toolchain; configure and build presets for
-x86/x64 and debug/release live in SRC/CMakePresets.json.
+x86/x64 and debug/release live in CMakePresets.json at the repo root.
 
 ## Build
 
@@ -25,7 +25,7 @@ x86/x64 and debug/release live in SRC/CMakePresets.json.
 - CMakeLists.txt (repo root) — entry point, only calls add_subdirectory(SRC).
 - SRC/CMakeLists.txt — target definitions: duke3dx (game) and editor
   (Build editor, WIN32 GUI subsystem). Sources are listed explicitly.
-- SRC/CMakePresets.json — configure and build presets shared by VS Code
+- CMakePresets.json (repo root) — configure and build presets shared by VS Code
   and CI.
 - SRC/ — all engine and game sources (Build engine + Duke Nukem 3D 1.5
   game code, GPL).
